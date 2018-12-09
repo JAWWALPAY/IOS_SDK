@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AcceptCardSDK_Example' do
+  pod 'AcceptCardSDK', :path => '../'
+
+  target 'AcceptCardSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
