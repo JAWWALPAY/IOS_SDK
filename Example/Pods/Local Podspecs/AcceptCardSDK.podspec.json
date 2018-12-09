@@ -1,0 +1,22 @@
+{
+  "name": "AcceptCardSDK",
+  "version": "0.1.0",
+  "summary": "A short description of AcceptCardSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mohamedghoneim/AcceptCardSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mohamedghoneim": "mohamedghoneim@weaccept.co"
+  },
+  "source": {
+    "git": "https://github.com/mohamedghoneim/AcceptCardSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AcceptCardSDK/Classes/**/*"
+}

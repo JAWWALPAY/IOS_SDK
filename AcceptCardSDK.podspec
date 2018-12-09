@@ -8,8 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AcceptCardSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AcceptCardSDK.'
+  s.version          = '1.0.4'
+  s.summary          = 'An Online Payment Solution'
+  s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,21 +18,20 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This Software Development Kit allows you to accept online payments provided by ACCEPT'
 
-  s.homepage         = 'https://github.com/mohamedghoneim/AcceptCardSDK'
+  s.homepage         = 'https://gitlab.com/mohamedghoneim/acceptcardsdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mohamedghoneim' => 'mohamedghoneim@weaccept.co' }
-  s.source           = { :git => 'https://github.com/mohamedghoneim/AcceptCardSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitlab.com/mohamedghoneim/acceptcardsdk.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AcceptCardSDK/Classes/**/*'
-  
+  #s.source_files = 'AcceptCardSDK/Classes/**/*'
+  s.ios.vendored_frameworks = 'AcceptCardSDK/Classes/AcceptSDK.framework'
+
   # s.resource_bundles = {
   #   'AcceptCardSDK' => ['AcceptCardSDK/Assets/*.png']
   # }

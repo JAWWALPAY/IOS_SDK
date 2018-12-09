@@ -1,0 +1,16 @@
+PODS:
+  - AcceptCardSDK (0.1.0)
+
+DEPENDENCIES:
+  - AcceptCardSDK (from `../`)
+
+EXTERNAL SOURCES:
+  AcceptCardSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AcceptCardSDK: 2478e8f40667e242d9595d9c92622be3796aa805
+
+PODFILE CHECKSUM: 19392d054715ad98e97a5ce057ad8693dedd1d34
+
+COCOAPODS: 1.5.3

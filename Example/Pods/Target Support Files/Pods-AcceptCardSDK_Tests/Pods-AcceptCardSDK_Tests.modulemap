@@ -1,0 +1,6 @@
+framework module Pods_AcceptCardSDK_Tests {
+  umbrella header "Pods-AcceptCardSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
