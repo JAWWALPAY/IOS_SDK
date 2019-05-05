@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AcceptCardSDK'
-  s.version          = '1.0.4'
+  s.version          = '5.0'
   s.summary          = 'An Online Payment Solution'
-  s.swift_version    = '4.2'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'This Software Development Kit allows you to accept online payments provided by ACCEPT'
+  s.description      = <<-DESC
+  This Software Development Kit allows you to accept online payments provided by ACCEPT
+  DESC
 
   s.homepage         = 'https://gitlab.com/mohamedghoneim/acceptcardsdk'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

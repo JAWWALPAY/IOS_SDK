@@ -1,5 +1,5 @@
 PODS:
-  - AcceptCardSDK (0.1.0)
+  - AcceptCardSDK (1.0.4)
 
 DEPENDENCIES:
   - AcceptCardSDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AcceptCardSDK: 2478e8f40667e242d9595d9c92622be3796aa805
+  AcceptCardSDK: 99aa7bb49a516b752cbcad3f9d3b1b139ab8482a
 
 PODFILE CHECKSUM: 19392d054715ad98e97a5ce057ad8693dedd1d34
 

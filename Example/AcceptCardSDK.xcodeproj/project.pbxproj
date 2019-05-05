@@ -271,13 +271,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-AcceptCardSDK_Example/Pods-AcceptCardSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AcceptCardSDK/AcceptCardSDK.framework",
+				"${PODS_ROOT}/../../AcceptCardSDK/Classes/AcceptSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AcceptCardSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AcceptSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

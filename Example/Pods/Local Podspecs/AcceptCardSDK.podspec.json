@@ -1,9 +1,10 @@
 {
   "name": "AcceptCardSDK",
-  "version": "0.1.0",
-  "summary": "A short description of AcceptCardSDK.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/mohamedghoneim/AcceptCardSDK",
+  "version": "1.0.4",
+  "summary": "An Online Payment Solution",
+  "swift_version": "4.2",
+  "description": "This Software Development Kit allows you to accept online payments provided by ACCEPT",
+  "homepage": "https://gitlab.com/mohamedghoneim/acceptcardsdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +13,13 @@
     "mohamedghoneim": "mohamedghoneim@weaccept.co"
   },
   "source": {
-    "git": "https://github.com/mohamedghoneim/AcceptCardSDK.git",
-    "tag": "0.1.0"
+    "git": "https://gitlab.com/mohamedghoneim/acceptcardsdk.git",
+    "tag": "1.0.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AcceptCardSDK/Classes/**/*"
+  "ios": {
+    "vendored_frameworks": "AcceptCardSDK/Classes/AcceptSDK.framework"
+  }
 }
