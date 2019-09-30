@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AcceptCardSDK'
-  s.version          = '5.1'
+  s.version          = '5.1.0'
   s.summary          = 'An Online Payment Solution'
   s.swift_version    = '5.1'
 
