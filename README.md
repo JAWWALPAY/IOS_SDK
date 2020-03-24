@@ -17,7 +17,7 @@ AcceptCardSDK is available through [CocoaPods](https://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AcceptCardSDK', '5.1.5'
+pod 'AcceptCardSDK'
 ```
 
 And in the general settings of your project, under libraried and frameworks
