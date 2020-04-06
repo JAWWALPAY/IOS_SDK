@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AcceptCardSDK'
-  s.version          = '5.1.7'
+  s.version          = '5.2.0'
   s.summary          = 'An Online Payment Solution'
-  s.swift_version    = '5.1.3'
+  s.swift_version    = '5.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
